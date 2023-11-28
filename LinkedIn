@@ -1,0 +1,5 @@
+# Delete all notifications currently loaded
+javascript: (() => { document.querySelectorAll('[href="#trash-medium"]').forEach(trash%20=>%20trash.parentNode.parentNode.click());%20console.log("Done");})();
+
+# Select all messages currently loaded (Doesn't delete in case I want to archive)
+javascript: (() => { document.querySelectorAll(".msg-selectable-entity__checkbox-container > input").forEach(checkbox => checkbox.parentNode.parentNode.click())})();
